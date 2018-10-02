@@ -1,0 +1,21 @@
+{
+  "name": "demo-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.1",
+    "npm": "^6.4.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reactstrap": "^6.4.0"
+  }
+}
