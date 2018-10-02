@@ -12,10 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie": "^0.3.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
     "next": "^7.0.1",
+    "nonce": "^1.0.4",
     "npm": "^6.4.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "reactstrap": "^6.4.0"
+    "reactstrap": "^6.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }
