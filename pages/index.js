@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
+import Products from '../components/Products'
+
 
 export default class Example extends React.Component {
     render() {
@@ -17,7 +19,11 @@ export default class Example extends React.Component {
                         </Jumbotron>
                     </Col>
                 </Row>
+                <Row>
+                    <Products/>
+                </Row>
             </Container>
         )
     }
 }
+
