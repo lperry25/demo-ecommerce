@@ -31,22 +31,6 @@ class Products extends Component{
         });
     }
 
-    fetchStore(){
-        fetch('https://:demo-ecommerce-lpfreelance.myshopify.com/admin/shop.json',{
-                method: 'GET',
-                    headers: {
-                    '6d9fe90195c14bd17e1c5070b16cb4a4': '17fa79a84c0b7ef4496a48c204c152cc',
-                }
-            })
-            .then(results => {
-                return results.json();
-            }).then(data => {
-            //set the json to the state
-            this.setState({myJson: results.json()});
-            console.log(this.state.myJson);
-        })
-    }
-
     render(){
         return(
             <div>
